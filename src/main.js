@@ -9,7 +9,7 @@ import routes from "./routes"
 Vue.use(Antd);
 Vue.use(Vuex);
 Vue.use(VueRouter)
-Vue.prototype.$axios = axios    //全局注册，使用方法为:this.$axios
+Vue.prototype["$axios"] = axios    //全局注册，使用方法为:this.$axios
 
 const router=new VueRouter({
     //mode:"history",

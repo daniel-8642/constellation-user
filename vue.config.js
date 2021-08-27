@@ -1,3 +1,4 @@
+// noinspection HttpUrlsUsage
 module.exports={
     publicPath:'./',
     devServer: {

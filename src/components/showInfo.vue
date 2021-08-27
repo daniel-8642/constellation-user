@@ -96,9 +96,4 @@ export default {
   border: 1px solid rgba(187, 187, 187, 100);
 }
 
-.ant-progress-circle-wrap,
-.ant-progress-line-wrap {
-  margin-right: 8px;
-  margin-bottom: 5px;
-}
 </style>
