@@ -1,5 +1,5 @@
-import showInfo from "./components/showInfo";
-import dateSelectors from "./components/dateSelectors";
+import showInfo from "./pages/ShowInfo";
+import dateSelectors from "./pages/DateSelectors";
 
 const routes=[
 {path:'/',component: dateSelectors,name:'home'},
