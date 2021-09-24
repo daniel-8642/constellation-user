@@ -1,0 +1,4 @@
+GET http://web.juhe.cn/constellation/getAll?consName=双鱼座&type=today&key=e1f7fff20b301745c64b655e0ef231d7
+Accept: application/json
+
+###
