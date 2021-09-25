@@ -152,6 +152,22 @@ export default {
       this.$router.push('/')
     }
 
+    this.$axios({
+      method: 'get',
+      url: '/bpi',
+      params: {
+        key: "2875034dbd22bbe9e8414fade4c6a1ed",
+        city: "苏州",
+      }
+    }).then((response) => {
+      //错误处理
+      console.log(response)
+      if (response.data.error_code===0)//判断请求状态
+      {
+        // this.name = response.data.name
+      }
+    })
+
   },
   beforeDestroy() {
     clearTimeout(this.loadTimer)
