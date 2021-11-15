@@ -178,19 +178,5 @@ export default {
 
 </script>
 
-<style scoped>
-#content_box {
-  margin: 0 auto;
-  background-color: white;
-  align-content: center;
-  top: 100px;
-  width: 450px;
-  height: 600px;
-  line-height: 20px;
-  border-radius: 100px;
-  text-align: center;
-  box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.4);
-  border: 1px solid rgba(187, 187, 187, 100);
-}
-
+<style>
 </style>

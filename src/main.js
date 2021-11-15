@@ -3,7 +3,8 @@ import Vuex from 'vuex'
 import App from './App.vue'
 import Antd from "ant-design-vue";
 import "ant-design-vue/dist/antd.css";
-import axios from 'axios'
+import "/src/style/style.css";
+import axios from 'axios';
 import VueRouter from "vue-router";
 import routes from "./routes"
 Vue.use(Antd);
