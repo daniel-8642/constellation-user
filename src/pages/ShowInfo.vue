@@ -179,4 +179,5 @@ export default {
 </script>
 
 <style>
+@import "~@/style/style.css";
 </style>
