@@ -1,6 +1,8 @@
 <template>
   <div>
     <div style="padding-top: 60px" id="content_box">
+      <h3>请选择你的生日</h3>
+      <br>
       <a-date-picker @change="onChange"/>
       <br>
       <button style="margin-top: 30px" @click="$router.push('/info')">{{ show }}</button>
