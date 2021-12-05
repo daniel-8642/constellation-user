@@ -120,7 +120,7 @@ export default {
                     ret='射手座'
                 } else {
                     //魔蝎座
-                    ret='魔蝎座'
+                    ret='摩羯座'
                 }
                 break;
             default:

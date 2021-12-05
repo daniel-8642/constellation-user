@@ -103,7 +103,7 @@ export default {
     if (this.$store.state.consName !== 'none') {
       this.$axios({
         method: 'get',
-        url: '/api',
+        url: 'http://101.33.239.181:9876/constellation/getAll',
         params: {
           key: "e1f7fff20b301745c64b655e0ef231d7",
           type: "today",
@@ -152,21 +152,21 @@ export default {
       this.$router.push('/')
     }
 
-    this.$axios({
-      method: 'get',
-      url: '/bpi',
-      params: {
-        key: "2875034dbd22bbe9e8414fade4c6a1ed",
-        city: "苏州",
-      }
-    }).then((response) => {
-      //错误处理
-      console.log(response)
-      if (response.data.error_code===0)//判断请求状态
-      {
-        // this.name = response.data.name
-      }
-    })
+    // this.$axios({
+    //   method: 'get',
+    //   url: '/bpi',
+    //   params: {
+    //     key: "2875034dbd22bbe9e8414fade4c6a1ed",
+    //     city: "苏州",
+    //   }
+    // }).then((response) => {
+    //   //错误处理
+    //   console.log(response)
+    //   if (response.data.error_code===0)//判断请求状态
+    //   {
+    //     // this.name = response.data.name
+    //   }
+    // })
 
   },
   beforeDestroy() {
