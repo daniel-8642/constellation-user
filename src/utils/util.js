@@ -17,8 +17,8 @@ export default {
         switch (dateValue.month()) {
             case 0:
                 if (dateValue.date() <= 20) {
-                    //魔蝎座
-                    ret='魔蝎座'
+                    //摩羯座
+                    ret='摩羯座'
                 } else {
                     //水瓶座
                     ret='水瓶座'
@@ -92,14 +92,14 @@ export default {
                     //处女座
                     ret='处女座'
                 } else {
-                    //天平座
-                    ret='天平座'
+                    //天秤座
+                    ret='天秤座'
                 }
                 break;
             case 9:
                 if (dateValue.date() <= 23) {
-                    //天平座
-                    ret='天平座'
+                    //天秤座
+                    ret='天秤座'
                 } else {
                     //天蝎座
                     ret='天蝎座'
@@ -119,7 +119,7 @@ export default {
                     //射手座
                     ret='射手座'
                 } else {
-                    //魔蝎座
+                    //摩羯座
                     ret='摩羯座'
                 }
                 break;
