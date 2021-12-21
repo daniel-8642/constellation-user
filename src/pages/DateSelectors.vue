@@ -20,6 +20,9 @@ export default {
       show: "查看",
     }
   },
+  mounted() {
+    document.title="星座运势"
+  },
   methods: {
     onChange(dateValue) {
       if (dateValue.month() == null) {

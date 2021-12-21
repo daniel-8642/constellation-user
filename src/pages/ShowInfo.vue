@@ -71,6 +71,9 @@ export default {
       error_code: 0
     }
   },
+  mounted() {
+    document.title="星座运势"
+  },
   methods: {
     //处理加载api超时
     checkLoading() {
@@ -103,7 +106,7 @@ export default {
     if (this.$store.state.consName !== 'none') {
       this.$axios({
         method: 'get',
-        url: 'http://101.33.239.181:9876/constellation/getAll',
+        url: '/constellation/getAll',
         params: {
           key: "e1f7fff20b301745c64b655e0ef231d7",
           type: "today",
