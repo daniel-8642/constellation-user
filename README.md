@@ -1,5 +1,7 @@
 项目详情请见  [后端项目](https://gitee.com/daniel8642/constellation-chart-backend)
 
+这个项目比较简单,就不过多描述啦
+
 如果需要更改接口请求地址
 
 src/pages/ShowInfo.vue文件中大约100行位置有唯一一个axios请求
