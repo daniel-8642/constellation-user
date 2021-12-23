@@ -1,8 +1,4 @@
-# vue
-
-这个项目是一个星座运势查询网页端
-
-使用到聚合数据的星座运势端口
+项目详情请见  [后端项目](https://gitee.com/daniel8642/constellation-chart-backend)
 
 项目效果
 http://star.86428642.xyz/
